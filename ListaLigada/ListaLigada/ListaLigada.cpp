@@ -8,6 +8,7 @@ struct NO {
 };
 
 NO* primeiro = NULL;
+NO* ultimo = NULL;   // Ponteiro para o último elemento
 
 // headers
 void menu();
