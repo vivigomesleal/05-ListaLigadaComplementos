@@ -177,7 +177,7 @@ void excluirElemento() {
     free(atual);
     cout << "Elemento excluido." << endl;
 }
-
+     
 NO* posicaoElemento(int numero) { // implementação da função
     NO* atual = primeiro;
     while (atual != NULL) {
